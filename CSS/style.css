@@ -127,7 +127,7 @@ input[type=text] {
   margin-right: 8.5%;
   border: 2px solid #d9d9d9;
   border-radius: 25px;
-  padding: 2% 4.4% 2% 3.5%;
+  padding: 2% 4.4% 2% 4.5%;
   justify-content: center
 }
 
@@ -153,11 +153,16 @@ ul a {
   display: flex;
   flex-direction: row;
   padding: 4% 0 3% 0;
-  align-items: center
+  align-items: center;
+  font-size: 16px;
+  font-weight: 400;
+
 }
 
-.text-500 p {
-  padding-left: 10px
+.text-500 h3 {
+  padding-left: 10px;
+  font-size: 16px;
+  font-weight: 400;
 }
 
 .icon-500-flex {
@@ -181,8 +186,7 @@ ul a {
   display: flex;
   align-items: center;
   padding-left: 1px;
-  padding-bottom: 1px;
-  margin-top: 8px
+  padding-bottom: 3px;
 }
 
 .case-marseille {
@@ -258,13 +262,16 @@ ul a {
   background-color: #f2f2f2;
   border-radius: 20px;
   width: 92%;
-  min-width: 92%
 }
 
 .case-marseille h3,
 .stars,
 p {
   padding: 7px 0 0 2%
+}
+
+.partie-gauche {
+  width: 100%;
 }
 
 .plus {
@@ -301,7 +308,7 @@ p {
   font-size: 22px;
   font-weight: 700;
   padding-bottom: 9%;
-  padding-left: 35px
+  padding-left: 15px
 }
 
 .titre-populaire i {
@@ -312,7 +319,7 @@ p {
 }
 
 .container img {
-  width: 150px;
+  width: 110px;
   height: 140px;
   border-top-left-radius: 20px;
   border-bottom-left-radius: 20px;
@@ -323,7 +330,7 @@ p {
   display: flex;
   flex-direction: row;
   background-color: #fff;
-  width: 90%;
+  width: 95%;
   margin: auto;
   margin-bottom: 10%;
   border-radius: 20px;
@@ -331,7 +338,7 @@ p {
 }
 
 .container-2 {
-  width: 95%;
+  width: 100%;
   display: flex;
   flex-direction: column;
   padding-left: 3%;
@@ -357,7 +364,8 @@ p {
 .container {
   display: flex;
   align-items: center;
-  padding: 3px
+  padding: 3px;
+  width: 60%
 }
 
 .texte-container p {
@@ -479,9 +487,7 @@ footer li {
     max-width: 992px
   }
 
-  .section-1 {
-    padding-left: 5px
-  }
+ 
 
   .allpopulaire {
     display: flex;
@@ -512,7 +518,7 @@ footer li {
 
   .a-populaire {
     display: inline;
-    min-width: 240px
+    min-width: 240px;
   }
 
   .li-filtres {
@@ -542,9 +548,7 @@ footer li {
     font-size: 14px
   }
 
-  .container img {
-    width: 100px
-  }
+ 
 
   .texte-container p {
     font-size: 13px
@@ -585,7 +589,9 @@ footer li {
   }
 
   footer {
-    margin: 0 auto
+    margin: 0 auto;
+    margin-left: 10px;
+    margin-right: 10px;
   }
 
   .recherche-icon {
@@ -613,6 +619,10 @@ footer li {
 
   .populaire {
     margin-left: 20px
+  }
+
+  .cards {
+    width: 100%;
   }
 }
 
@@ -674,7 +684,8 @@ footer li {
     justify-content: space-around;
     margin: auto;
     padding: 0;
-    width: 100%
+    width: 100%;
+    gap: 5px
   }
 
   .filtres {
@@ -687,10 +698,9 @@ footer li {
   }
 
   .li-filtres {
-    width: 40%;
+    width: 48%;
     height: 50px;
     justify-content: flex-start;
-    margin: 8px
   }
 
   .li-filtres a {
@@ -705,7 +715,7 @@ footer li {
     padding-right: 4%
   }
 
-  .text-500 p {
+  .text-500 h3 {
     padding-top: 4%;
     padding-bottom: 8%
   }
@@ -753,7 +763,7 @@ footer li {
   .titre-populaire i {
     margin: 0;
     padding-left: 150px;
-    padding-top: 25px
+    padding-top: 18px
   }
 
   .card-populaire {
@@ -765,7 +775,6 @@ footer li {
 
   .outer-container {
     margin-bottom: 2%;
-    width: 90%
   }
 
   .conteneur-hebergement h2,
@@ -804,7 +813,7 @@ footer li {
   }
 
   .activites-titre h2 {
-    padding: 14% 0 7% 8%;
+    padding: 14% 0 10% 8%;
     width: 200px
   }
 
@@ -829,7 +838,8 @@ footer li {
     flex-direction: column;
     height: 100%;
     width: 100%;
-    padding: 4% 0 10% 9%
+    padding: 4% 0 10% 9%;
+    margin-left: 0;
   }
 
   footer h3 {
@@ -913,6 +923,21 @@ form {
   }
 }
 
+
+.barre,
+.filtres,
+.logo-top,
+.section-1 p,
+.section-activites,
+.text-500,
+section h1 {
+  padding-left: 20px
+}
+
+.cards {
+  padding-left: 7px;
+}
+
 @media only screen and (max-width:768px) {
   .bg {
     display: none
@@ -926,15 +951,13 @@ form {
     width: 190px !important;
     height: 100%
   }
-}
 
-.barre,
-.cards,
-.filtres,
-.logo-top,
-.section-1 p,
-.section-activites,
-.text-500,
-section h1 {
-  padding-left: 20px
+  .cards {
+    padding-left: 0;
+    padding-right: 10px;
+  }
+
+  .section-activites {
+    padding-left: 0;
+  }
 }
