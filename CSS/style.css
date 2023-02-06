@@ -124,10 +124,10 @@ input[type=text] {
 .li-filtres {
   display: flex;
   flex-direction: row;
-  margin-right: 8.5%;
+  margin-right: 5.5%;
   border: 2px solid #d9d9d9;
   border-radius: 25px;
-  padding: 2% 4.4% 2% 4.5%;
+  padding: 2% 4.4% 2% 3.5%;
   justify-content: center
 }
 
@@ -142,7 +142,8 @@ ul a {
   font-size: 17px;
   white-space: nowrap;
   text-decoration: none;
-  color: #000
+  color: #000;
+  margin-right: 5px;
 }
 
 .li-filtres:hover {
@@ -492,7 +493,7 @@ footer li {
   .allpopulaire {
     display: flex;
     flex-direction: row;
-    justify-content: space-between
+    justify-content: space-around
   }
 
   .text-500 {
@@ -522,11 +523,13 @@ footer li {
   }
 
   .li-filtres {
-    margin-right: 5px
+    margin-right: 5px;
+    padding: 2% 2.4% 2% 2%;
   }
 
+
   .populaire {
-    width: 95%;
+    width: 96%;
     margin-left: 5px;
     margin-right: 5px;
     margin-top: 5px
@@ -541,7 +544,8 @@ footer li {
   }
 
   .cards {
-    padding-left: 0
+    padding-left: 0;
+    margin-left: 10px;
   }
 
   .texte-container h3 {
@@ -712,8 +716,9 @@ footer li {
   .li-filtres i {
     align-self: center;
     font-size: 22px;
-    padding-right: 4%
+    padding-right: 4%;
   }
+
 
   .text-500 h3 {
     padding-top: 4%;
@@ -783,7 +788,8 @@ footer li {
   }
 
   .case-marseille {
-    width: 96%
+    width: 96%;
+    margin-left: 15px;
   }
 
   .plus {
@@ -809,7 +815,7 @@ footer li {
   }
 
   .all a {
-    width: 90%
+    width: 92%
   }
 
   .activites-titre h2 {
@@ -948,13 +954,14 @@ section h1 {
   }
 
   #search-are {
-    width: 190px !important;
+    width: 230px !important;
     height: 100%
   }
 
   .cards {
     padding-left: 0;
     padding-right: 10px;
+    margin: 0
   }
 
   .section-activites {
