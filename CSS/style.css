@@ -127,7 +127,7 @@ input[type=text] {
   margin-right: 5.5%;
   border: 2px solid #d9d9d9;
   border-radius: 25px;
-  padding: 2% 4.4% 2% 3.5%;
+  padding: 2% 2.4% 2% 2.5%;
   justify-content: center
 }
 
@@ -331,7 +331,7 @@ p {
   display: flex;
   flex-direction: row;
   background-color: #fff;
-  width: 95%;
+  width: 97%;
   margin: auto;
   margin-bottom: 10%;
   border-radius: 20px;
@@ -565,7 +565,7 @@ footer li {
 
   .titre-populaire {
     height: 40px;
-    padding-left: 30px
+    padding-left: 15px
   }
 
   .titre-populaire h2 {
@@ -624,9 +624,6 @@ footer li {
     margin-left: 20px
   }
 
-  .cards {
-    width: 100%;
-  }
 }
 
 @media only screen and (max-width:768px) {
@@ -688,7 +685,7 @@ footer li {
     margin: auto;
     padding: 0;
     width: 100%;
-    gap: 5px
+    
   }
 
   .filtres {
@@ -704,6 +701,7 @@ footer li {
     width: 48%;
     height: 50px;
     justify-content: flex-start;
+    margin-bottom: 5px;
   }
 
   .li-filtres a {
@@ -740,9 +738,6 @@ footer li {
     flex-direction: column
   }
 
-  .section-1 {
-    padding-left: 6%
-  }
 
   .text-500 {
     padding-left: 4%
@@ -890,7 +885,7 @@ form {
 }
 
 #search-are {
-  width: 300px !important;
+  width: 250px !important;
   height: 100%;
   border: 1px solid #f2f2f2;
   padding-left: 2%
