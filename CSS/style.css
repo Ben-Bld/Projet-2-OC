@@ -133,7 +133,7 @@ input[type=text] {
 
 ul i {
   color: #0065fc;
-  padding-left: 2%;
+  padding-left: 7%;
   padding-right: 10%
 }
 
@@ -524,7 +524,6 @@ footer li {
 
   .li-filtres {
     margin-right: 5px;
-    padding: 2% 2.4% 2% 2%;
   }
 
 
