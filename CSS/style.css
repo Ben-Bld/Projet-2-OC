@@ -144,6 +144,7 @@ ul a {
   text-decoration: none;
   color: #000;
   margin-right: 5px;
+  padding-right: 7px;
 }
 
 .li-filtres:hover {
@@ -262,7 +263,6 @@ ul a {
   flex-direction: column;
   background-color: #f2f2f2;
   border-radius: 20px;
-  width: 92%;
 }
 
 .case-marseille h3,
@@ -290,7 +290,7 @@ p {
 }
 
 .populaire {
-  width: 40%;
+  width: 30%;
   background-color: #f2f2f2;
   border-radius: 20px;
   margin-right: 10px
@@ -331,7 +331,7 @@ p {
   display: flex;
   flex-direction: row;
   background-color: #fff;
-  width: 97%;
+  width: 86%;
   margin: auto;
   margin-bottom: 10%;
   border-radius: 20px;
@@ -424,13 +424,13 @@ p {
 
 .ligne1 {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-evenly;
   width: 100%
 }
 
 .ligne2 {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-evenly;
   width: 100%
 }
 
@@ -938,6 +938,19 @@ section h1 {
   padding-left: 7px;
 }
 
+
+
+@media screen and (min-width: 992px) {
+.cards {
+  padding-left: 7px;
+  width: 70%;
+  margin-right: 10px;
+}
+.conteneur-hebergement{
+  margin-right: 10px;
+}
+}
+
 @media only screen and (max-width:768px) {
   .bg {
     display: none
@@ -955,10 +968,12 @@ section h1 {
   .cards {
     padding-left: 0;
     padding-right: 10px;
-    margin: 0
+    margin: 0;
   }
 
   .section-activites {
     padding-left: 0;
   }
 }
+
+
