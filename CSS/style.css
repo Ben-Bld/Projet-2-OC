@@ -144,7 +144,7 @@ ul a {
   text-decoration: none;
   color: #000;
   margin-right: 5px;
-  padding-right: 7px;
+  padding-right: 7px
 }
 
 .li-filtres:hover {
@@ -157,14 +157,13 @@ ul a {
   padding: 4% 0 3% 0;
   align-items: center;
   font-size: 16px;
-  font-weight: 400;
-
+  font-weight: 400
 }
 
 .text-500 h3 {
   padding-left: 10px;
   font-size: 16px;
-  font-weight: 400;
+  font-weight: 400
 }
 
 .icon-500-flex {
@@ -188,7 +187,7 @@ ul a {
   display: flex;
   align-items: center;
   padding-left: 1px;
-  padding-bottom: 3px;
+  padding-bottom: 3px
 }
 
 .case-marseille {
@@ -198,7 +197,7 @@ ul a {
   padding: 4px;
   border-radius: 20px;
   min-width: 200px;
-  width: 230px;
+  width: 264px;
   margin-bottom: 3%;
   margin-top: 3%;
   box-shadow: 0 8px 18px 4px rgba(166, 166, 166, .59);
@@ -262,7 +261,7 @@ ul a {
   display: flex;
   flex-direction: column;
   background-color: #f2f2f2;
-  border-radius: 20px;
+  border-radius: 20px
 }
 
 .case-marseille h3,
@@ -272,7 +271,7 @@ p {
 }
 
 .partie-gauche {
-  width: 100%;
+  width: 100%
 }
 
 .plus {
@@ -488,8 +487,6 @@ footer li {
     max-width: 992px
   }
 
- 
-
   .allpopulaire {
     display: flex;
     flex-direction: row;
@@ -519,13 +516,12 @@ footer li {
 
   .a-populaire {
     display: inline;
-    min-width: 240px;
+    min-width: 240px
   }
 
   .li-filtres {
-    margin-right: 5px;
+    margin-right: 5px
   }
-
 
   .populaire {
     width: 96%;
@@ -544,14 +540,12 @@ footer li {
 
   .cards {
     padding-left: 0;
-    margin-left: 10px;
+    margin-left: 10px
   }
 
   .texte-container h3 {
     font-size: 14px
   }
-
- 
 
   .texte-container p {
     font-size: 13px
@@ -594,7 +588,7 @@ footer li {
   footer {
     margin: 0 auto;
     margin-left: 10px;
-    margin-right: 10px;
+    margin-right: 10px
   }
 
   .recherche-icon {
@@ -623,7 +617,6 @@ footer li {
   .populaire {
     margin-left: 20px
   }
-
 }
 
 @media only screen and (max-width:768px) {
@@ -684,8 +677,7 @@ footer li {
     justify-content: space-around;
     margin: auto;
     padding: 0;
-    width: 100%;
-    
+    width: 100%
   }
 
   .filtres {
@@ -701,7 +693,7 @@ footer li {
     width: 48%;
     height: 50px;
     justify-content: flex-start;
-    margin-bottom: 5px;
+    margin-bottom: 5px
   }
 
   .li-filtres a {
@@ -713,9 +705,8 @@ footer li {
   .li-filtres i {
     align-self: center;
     font-size: 22px;
-    padding-right: 4%;
+    padding-right: 4%
   }
-
 
   .text-500 h3 {
     padding-top: 4%;
@@ -737,7 +728,6 @@ footer li {
   .card-populaire {
     flex-direction: column
   }
-
 
   .text-500 {
     padding-left: 4%
@@ -773,7 +763,7 @@ footer li {
   }
 
   .outer-container {
-    margin-bottom: 2%;
+    margin-bottom: 2%
   }
 
   .conteneur-hebergement h2,
@@ -783,7 +773,7 @@ footer li {
 
   .case-marseille {
     width: 96%;
-    margin-left: 15px;
+    margin-left: 15px
   }
 
   .plus {
@@ -839,7 +829,7 @@ footer li {
     height: 100%;
     width: 100%;
     padding: 4% 0 10% 9%;
-    margin-left: 0;
+    margin-left: 0
   }
 
   footer h3 {
@@ -923,7 +913,6 @@ form {
   }
 }
 
-
 .barre,
 .filtres,
 .logo-top,
@@ -935,20 +924,19 @@ section h1 {
 }
 
 .cards {
-  padding-left: 7px;
+  padding-left: 7px
 }
 
+@media screen and (min-width:992px) {
+  .cards {
+    padding-left: 7px;
+    width: 70%;
+    margin-right: 10px
+  }
 
-
-@media screen and (min-width: 992px) {
-.cards {
-  padding-left: 7px;
-  width: 70%;
-  margin-right: 10px;
-}
-.conteneur-hebergement{
-  margin-right: 5px;
-}
+  .conteneur-hebergement {
+    margin-right: 5px
+  }
 }
 
 @media only screen and (max-width:768px) {
@@ -968,12 +956,10 @@ section h1 {
   .cards {
     padding-left: 0;
     padding-right: 10px;
-    margin: 0;
+    margin: 0
   }
 
   .section-activites {
-    padding-left: 0;
+    padding-left: 0
   }
 }
-
-
