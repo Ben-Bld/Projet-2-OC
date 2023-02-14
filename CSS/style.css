@@ -330,7 +330,7 @@ p {
   display: flex;
   flex-direction: row;
   background-color: #fff;
-  width: 98%;
+  width: 90%;
   margin: auto;
   margin-bottom: 10%;
   border-radius: 20px;
@@ -338,7 +338,6 @@ p {
 }
 
 .container-2 {
-  width: 100%;
   display: flex;
   flex-direction: column;
   padding-left: 3%;
@@ -444,8 +443,8 @@ p {
 
 .filtres h2 {
   padding: 0;
-  padding-left: .5%;
-  padding-top: 5px
+  padding-top: 13px;
+  font-size: 18px;
 }
 
 footer {
@@ -487,10 +486,14 @@ footer li {
     max-width: 992px
   }
 
+  .outer-container {
+    width: 97%;
+  }
+
   .allpopulaire {
     display: flex;
     flex-direction: row;
-    justify-content: space-around
+    justify-content: space-evenly
   }
 
   .text-500 {
@@ -519,7 +522,7 @@ footer li {
   }
 
   .li-filtres {
-    margin-right: 5px
+    margin-right: 2px
   }
 
   .populaire {
