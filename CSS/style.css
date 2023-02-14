@@ -330,7 +330,7 @@ p {
   display: flex;
   flex-direction: row;
   background-color: #fff;
-  width: 86%;
+  width: 98%;
   margin: auto;
   margin-bottom: 10%;
   border-radius: 20px;
@@ -365,7 +365,6 @@ p {
   display: flex;
   align-items: center;
   padding: 3px;
-  width: 60%
 }
 
 .texte-container p {
