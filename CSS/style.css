@@ -368,6 +368,7 @@ p {
 }
 
 .texte-container p {
+  padding-left: 0;
   padding-top: 6%
 }
 
@@ -515,7 +516,6 @@ footer li {
 
   .a-populaire {
     display: inline;
-    min-width: 240px
   }
 
   .li-filtres {
