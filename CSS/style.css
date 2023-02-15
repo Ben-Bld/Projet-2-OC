@@ -124,7 +124,7 @@ input[type=text] {
 .li-filtres {
   display: flex;
   flex-direction: row;
-  margin-right: 5.5%;
+  margin-right: 10%;
   border: 2px solid #d9d9d9;
   border-radius: 25px;
   padding: 2% 2.4% 2% 2.5%;
@@ -141,6 +141,8 @@ ul a {
   font-weight: 700;
   font-size: 17px;
   white-space: nowrap;
+  padding-left: 7px;
+  padding-right: 10px;
   text-decoration: none;
   color: #000;
   margin-right: 5px;
@@ -968,9 +970,7 @@ section h1 {
 
 @media screen and (min-width:993px) {
 
-.li-filtres {
-  margin-right: 7px
-}
+
 
 }
 
@@ -996,5 +996,9 @@ section h1 {
 
   .section-activites {
     padding-left: 0
+  }
+
+  .li-filtres { 
+    margin-right: 1px;
   }
 }
