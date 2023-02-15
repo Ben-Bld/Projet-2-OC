@@ -124,7 +124,7 @@ input[type=text] {
 .li-filtres {
   display: flex;
   flex-direction: row;
-  margin-right: 10%;
+  margin-right: 7%;
   border: 2px solid #d9d9d9;
   border-radius: 25px;
   padding: 2% 2.4% 2% 2.5%;
@@ -488,6 +488,10 @@ footer li {
     max-width: 992px
   }
 
+
+  ul a {
+    padding-right: 0;
+  }
 
   .container img  {
     width: 105px;
