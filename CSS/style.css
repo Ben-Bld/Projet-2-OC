@@ -486,6 +486,15 @@ footer li {
     max-width: 992px
   }
 
+  
+  .all3 {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+  }
+
+
+
   .outer-container {
     width: 97%;
   }
@@ -493,7 +502,8 @@ footer li {
   .allpopulaire {
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly
+    justify-content: space-evenly;
+    width: 100%;
   }
 
   .text-500 {
@@ -518,6 +528,7 @@ footer li {
   }
 
   .a-populaire {
+    width: 96%;
     display: inline;
   }
 
@@ -929,7 +940,7 @@ section h1 {
   padding-left: 7px
 }
 
-@media screen and (min-width:992px) {
+@media screen and (min-width:993px) {
   .cards {
     padding-left: 7px;
     width: 70%;
@@ -939,6 +950,8 @@ section h1 {
   .conteneur-hebergement {
     margin-right: 5px
   }
+
+
 }
 
 @media only screen and (max-width:768px) {
