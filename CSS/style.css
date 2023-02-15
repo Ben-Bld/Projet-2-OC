@@ -537,7 +537,7 @@ footer li {
   }
 
   .li-filtres {
-    margin-right: 10px
+    margin-right: 8px
   }
 
   .populaire {
@@ -963,6 +963,14 @@ section h1 {
     margin-right: 5px
   }
 
+
+}
+
+@media screen and (min-width:993px) {
+
+.li-filtres {
+  margin-right: 7px
+}
 
 }
 
