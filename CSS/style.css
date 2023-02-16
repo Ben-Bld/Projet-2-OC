@@ -538,7 +538,7 @@ footer li {
   }
 
   .a-populaire {
-    width: 96%;
+    width: 98%;
     display: inline;
   }
 
@@ -858,6 +858,10 @@ footer li {
     height: 200px
   }
 
+  .object-cover-img {
+    object-position: top;
+  }
+
   .conteneur-activites {
     height: 250px;
     width: 100%
@@ -959,7 +963,7 @@ form {
 .section-activites,
 .text-500,
 section h1 {
-  padding-left: 5px
+  padding-left: 15px
 }
 
 .cards {
